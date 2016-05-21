@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3742FC591CEFF89000A6FC56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742FC581CEFF89000A6FC56 /* AppDelegate.swift */; };
+		3742FC5B1CEFF89000A6FC56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742FC5A1CEFF89000A6FC56 /* ViewController.swift */; };
+		3742FC5E1CEFF89000A6FC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3742FC5C1CEFF89000A6FC56 /* Main.storyboard */; };
+		3742FC601CEFF89000A6FC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3742FC5F1CEFF89000A6FC56 /* Assets.xcassets */; };
+		3742FC631CEFF89000A6FC56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3742FC611CEFF89000A6FC56 /* LaunchScreen.storyboard */; };
+		3742FC6E1CEFF89000A6FC56 /* dreamifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742FC6D1CEFF89000A6FC56 /* dreamifyTests.swift */; };
+		3742FC791CEFF89000A6FC56 /* dreamifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742FC781CEFF89000A6FC56 /* dreamifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3742FC6A1CEFF89000A6FC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3742FC4D1CEFF89000A6FC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3742FC541CEFF89000A6FC56;
+			remoteInfo = dreamify;
+		};
+		3742FC751CEFF89000A6FC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3742FC4D1CEFF89000A6FC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3742FC541CEFF89000A6FC56;
+			remoteInfo = dreamify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3742FC551CEFF89000A6FC56 /* dreamify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dreamify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3742FC581CEFF89000A6FC56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3742FC5A1CEFF89000A6FC56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3742FC5D1CEFF89000A6FC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3742FC5F1CEFF89000A6FC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3742FC621CEFF89000A6FC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3742FC641CEFF89000A6FC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3742FC691CEFF89000A6FC56 /* dreamifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dreamifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3742FC6D1CEFF89000A6FC56 /* dreamifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dreamifyTests.swift; sourceTree = "<group>"; };
+		3742FC6F1CEFF89000A6FC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3742FC741CEFF89000A6FC56 /* dreamifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dreamifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3742FC781CEFF89000A6FC56 /* dreamifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dreamifyUITests.swift; sourceTree = "<group>"; };
+		3742FC7A1CEFF89000A6FC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3742FC521CEFF89000A6FC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3742FC661CEFF89000A6FC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3742FC711CEFF89000A6FC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3742FC4C1CEFF89000A6FC56 = {
+			isa = PBXGroup;
+			children = (
+				3742FC571CEFF89000A6FC56 /* dreamify */,
+				3742FC6C1CEFF89000A6FC56 /* dreamifyTests */,
+				3742FC771CEFF89000A6FC56 /* dreamifyUITests */,
+				3742FC561CEFF89000A6FC56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3742FC561CEFF89000A6FC56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3742FC551CEFF89000A6FC56 /* dreamify.app */,
+				3742FC691CEFF89000A6FC56 /* dreamifyTests.xctest */,
+				3742FC741CEFF89000A6FC56 /* dreamifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3742FC571CEFF89000A6FC56 /* dreamify */ = {
+			isa = PBXGroup;
+			children = (
+				3742FC581CEFF89000A6FC56 /* AppDelegate.swift */,
+				3742FC5A1CEFF89000A6FC56 /* ViewController.swift */,
+				3742FC5C1CEFF89000A6FC56 /* Main.storyboard */,
+				3742FC5F1CEFF89000A6FC56 /* Assets.xcassets */,
+				3742FC611CEFF89000A6FC56 /* LaunchScreen.storyboard */,
+				3742FC641CEFF89000A6FC56 /* Info.plist */,
+			);
+			path = dreamify;
+			sourceTree = "<group>";
+		};
+		3742FC6C1CEFF89000A6FC56 /* dreamifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3742FC6D1CEFF89000A6FC56 /* dreamifyTests.swift */,
+				3742FC6F1CEFF89000A6FC56 /* Info.plist */,
+			);
+			path = dreamifyTests;
+			sourceTree = "<group>";
+		};
+		3742FC771CEFF89000A6FC56 /* dreamifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3742FC781CEFF89000A6FC56 /* dreamifyUITests.swift */,
+				3742FC7A1CEFF89000A6FC56 /* Info.plist */,
+			);
+			path = dreamifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3742FC541CEFF89000A6FC56 /* dreamify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3742FC7D1CEFF89000A6FC56 /* Build configuration list for PBXNativeTarget "dreamify" */;
+			buildPhases = (
+				3742FC511CEFF89000A6FC56 /* Sources */,
+				3742FC521CEFF89000A6FC56 /* Frameworks */,
+				3742FC531CEFF89000A6FC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dreamify;
+			productName = dreamify;
+			productReference = 3742FC551CEFF89000A6FC56 /* dreamify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3742FC681CEFF89000A6FC56 /* dreamifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3742FC801CEFF89000A6FC56 /* Build configuration list for PBXNativeTarget "dreamifyTests" */;
+			buildPhases = (
+				3742FC651CEFF89000A6FC56 /* Sources */,
+				3742FC661CEFF89000A6FC56 /* Frameworks */,
+				3742FC671CEFF89000A6FC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3742FC6B1CEFF89000A6FC56 /* PBXTargetDependency */,
+			);
+			name = dreamifyTests;
+			productName = dreamifyTests;
+			productReference = 3742FC691CEFF89000A6FC56 /* dreamifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3742FC731CEFF89000A6FC56 /* dreamifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3742FC831CEFF89000A6FC56 /* Build configuration list for PBXNativeTarget "dreamifyUITests" */;
+			buildPhases = (
+				3742FC701CEFF89000A6FC56 /* Sources */,
+				3742FC711CEFF89000A6FC56 /* Frameworks */,
+				3742FC721CEFF89000A6FC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3742FC761CEFF89000A6FC56 /* PBXTargetDependency */,
+			);
+			name = dreamifyUITests;
+			productName = dreamifyUITests;
+			productReference = 3742FC741CEFF89000A6FC56 /* dreamifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3742FC4D1CEFF89000A6FC56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rodrigo Kreutz";
+				TargetAttributes = {
+					3742FC541CEFF89000A6FC56 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3742FC681CEFF89000A6FC56 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3742FC541CEFF89000A6FC56;
+					};
+					3742FC731CEFF89000A6FC56 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3742FC541CEFF89000A6FC56;
+					};
+				};
+			};
+			buildConfigurationList = 3742FC501CEFF89000A6FC56 /* Build configuration list for PBXProject "dreamify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3742FC4C1CEFF89000A6FC56;
+			productRefGroup = 3742FC561CEFF89000A6FC56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3742FC541CEFF89000A6FC56 /* dreamify */,
+				3742FC681CEFF89000A6FC56 /* dreamifyTests */,
+				3742FC731CEFF89000A6FC56 /* dreamifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3742FC531CEFF89000A6FC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742FC631CEFF89000A6FC56 /* LaunchScreen.storyboard in Resources */,
+				3742FC601CEFF89000A6FC56 /* Assets.xcassets in Resources */,
+				3742FC5E1CEFF89000A6FC56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3742FC671CEFF89000A6FC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3742FC721CEFF89000A6FC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3742FC511CEFF89000A6FC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742FC5B1CEFF89000A6FC56 /* ViewController.swift in Sources */,
+				3742FC591CEFF89000A6FC56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3742FC651CEFF89000A6FC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742FC6E1CEFF89000A6FC56 /* dreamifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3742FC701CEFF89000A6FC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742FC791CEFF89000A6FC56 /* dreamifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3742FC6B1CEFF89000A6FC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3742FC541CEFF89000A6FC56 /* dreamify */;
+			targetProxy = 3742FC6A1CEFF89000A6FC56 /* PBXContainerItemProxy */;
+		};
+		3742FC761CEFF89000A6FC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3742FC541CEFF89000A6FC56 /* dreamify */;
+			targetProxy = 3742FC751CEFF89000A6FC56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3742FC5C1CEFF89000A6FC56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3742FC5D1CEFF89000A6FC56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3742FC611CEFF89000A6FC56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3742FC621CEFF89000A6FC56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3742FC7B1CEFF89000A6FC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3742FC7C1CEFF89000A6FC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3742FC7E1CEFF89000A6FC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dreamify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3742FC7F1CEFF89000A6FC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dreamify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3742FC811CEFF89000A6FC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dreamifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dreamify.app/dreamify";
+			};
+			name = Debug;
+		};
+		3742FC821CEFF89000A6FC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dreamifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dreamify.app/dreamify";
+			};
+			name = Release;
+		};
+		3742FC841CEFF89000A6FC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dreamifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dreamify;
+			};
+			name = Debug;
+		};
+		3742FC851CEFF89000A6FC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dreamifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dreamify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3742FC501CEFF89000A6FC56 /* Build configuration list for PBXProject "dreamify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742FC7B1CEFF89000A6FC56 /* Debug */,
+				3742FC7C1CEFF89000A6FC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3742FC7D1CEFF89000A6FC56 /* Build configuration list for PBXNativeTarget "dreamify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742FC7E1CEFF89000A6FC56 /* Debug */,
+				3742FC7F1CEFF89000A6FC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3742FC801CEFF89000A6FC56 /* Build configuration list for PBXNativeTarget "dreamifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742FC811CEFF89000A6FC56 /* Debug */,
+				3742FC821CEFF89000A6FC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3742FC831CEFF89000A6FC56 /* Build configuration list for PBXNativeTarget "dreamifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742FC841CEFF89000A6FC56 /* Debug */,
+				3742FC851CEFF89000A6FC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3742FC4D1CEFF89000A6FC56 /* Project object */;
+}
