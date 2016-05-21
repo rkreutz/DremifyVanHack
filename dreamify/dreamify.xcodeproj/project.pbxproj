@@ -12,26 +12,9 @@
 		3742FC5E1CEFF89000A6FC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3742FC5C1CEFF89000A6FC56 /* Main.storyboard */; };
 		3742FC601CEFF89000A6FC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3742FC5F1CEFF89000A6FC56 /* Assets.xcassets */; };
 		3742FC631CEFF89000A6FC56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3742FC611CEFF89000A6FC56 /* LaunchScreen.storyboard */; };
-		3742FC6E1CEFF89000A6FC56 /* dreamifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742FC6D1CEFF89000A6FC56 /* dreamifyTests.swift */; };
-		3742FC791CEFF89000A6FC56 /* dreamifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742FC781CEFF89000A6FC56 /* dreamifyUITests.swift */; };
+		3742FC8A1CEFFE7000A6FC56 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3742FC881CEFFE7000A6FC56 /* Bolts.framework */; };
+		3742FC8B1CEFFE7000A6FC56 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3742FC891CEFFE7000A6FC56 /* Parse.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3742FC6A1CEFF89000A6FC56 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3742FC4D1CEFF89000A6FC56 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3742FC541CEFF89000A6FC56;
-			remoteInfo = dreamify;
-		};
-		3742FC751CEFF89000A6FC56 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3742FC4D1CEFF89000A6FC56 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3742FC541CEFF89000A6FC56;
-			remoteInfo = dreamify;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3742FC551CEFF89000A6FC56 /* dreamify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dreamify.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,12 +24,8 @@
 		3742FC5F1CEFF89000A6FC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3742FC621CEFF89000A6FC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3742FC641CEFF89000A6FC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3742FC691CEFF89000A6FC56 /* dreamifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dreamifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3742FC6D1CEFF89000A6FC56 /* dreamifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dreamifyTests.swift; sourceTree = "<group>"; };
-		3742FC6F1CEFF89000A6FC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3742FC741CEFF89000A6FC56 /* dreamifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dreamifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3742FC781CEFF89000A6FC56 /* dreamifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dreamifyUITests.swift; sourceTree = "<group>"; };
-		3742FC7A1CEFF89000A6FC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3742FC881CEFFE7000A6FC56 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		3742FC891CEFFE7000A6FC56 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Carthage/Build/iOS/Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,20 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3742FC661CEFF89000A6FC56 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3742FC711CEFF89000A6FC56 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3742FC8A1CEFFE7000A6FC56 /* Bolts.framework in Frameworks */,
+				3742FC8B1CEFFE7000A6FC56 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +45,8 @@
 			isa = PBXGroup;
 			children = (
 				3742FC571CEFF89000A6FC56 /* dreamify */,
-				3742FC6C1CEFF89000A6FC56 /* dreamifyTests */,
-				3742FC771CEFF89000A6FC56 /* dreamifyUITests */,
 				3742FC561CEFF89000A6FC56 /* Products */,
+				3742FC8C1CEFFE7900A6FC56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				3742FC551CEFF89000A6FC56 /* dreamify.app */,
-				3742FC691CEFF89000A6FC56 /* dreamifyTests.xctest */,
-				3742FC741CEFF89000A6FC56 /* dreamifyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,22 +71,13 @@
 			path = dreamify;
 			sourceTree = "<group>";
 		};
-		3742FC6C1CEFF89000A6FC56 /* dreamifyTests */ = {
+		3742FC8C1CEFFE7900A6FC56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3742FC6D1CEFF89000A6FC56 /* dreamifyTests.swift */,
-				3742FC6F1CEFF89000A6FC56 /* Info.plist */,
+				3742FC881CEFFE7000A6FC56 /* Bolts.framework */,
+				3742FC891CEFFE7000A6FC56 /* Parse.framework */,
 			);
-			path = dreamifyTests;
-			sourceTree = "<group>";
-		};
-		3742FC771CEFF89000A6FC56 /* dreamifyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3742FC781CEFF89000A6FC56 /* dreamifyUITests.swift */,
-				3742FC7A1CEFF89000A6FC56 /* Info.plist */,
-			);
-			path = dreamifyUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +100,6 @@
 			productReference = 3742FC551CEFF89000A6FC56 /* dreamify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3742FC681CEFF89000A6FC56 /* dreamifyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3742FC801CEFF89000A6FC56 /* Build configuration list for PBXNativeTarget "dreamifyTests" */;
-			buildPhases = (
-				3742FC651CEFF89000A6FC56 /* Sources */,
-				3742FC661CEFF89000A6FC56 /* Frameworks */,
-				3742FC671CEFF89000A6FC56 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3742FC6B1CEFF89000A6FC56 /* PBXTargetDependency */,
-			);
-			name = dreamifyTests;
-			productName = dreamifyTests;
-			productReference = 3742FC691CEFF89000A6FC56 /* dreamifyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3742FC731CEFF89000A6FC56 /* dreamifyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3742FC831CEFF89000A6FC56 /* Build configuration list for PBXNativeTarget "dreamifyUITests" */;
-			buildPhases = (
-				3742FC701CEFF89000A6FC56 /* Sources */,
-				3742FC711CEFF89000A6FC56 /* Frameworks */,
-				3742FC721CEFF89000A6FC56 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3742FC761CEFF89000A6FC56 /* PBXTargetDependency */,
-			);
-			name = dreamifyUITests;
-			productName = dreamifyUITests;
-			productReference = 3742FC741CEFF89000A6FC56 /* dreamifyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +112,6 @@
 				TargetAttributes = {
 					3742FC541CEFF89000A6FC56 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					3742FC681CEFF89000A6FC56 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 3742FC541CEFF89000A6FC56;
-					};
-					3742FC731CEFF89000A6FC56 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 3742FC541CEFF89000A6FC56;
 					};
 				};
 			};
@@ -218,8 +129,6 @@
 			projectRoot = "";
 			targets = (
 				3742FC541CEFF89000A6FC56 /* dreamify */,
-				3742FC681CEFF89000A6FC56 /* dreamifyTests */,
-				3742FC731CEFF89000A6FC56 /* dreamifyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +144,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3742FC671CEFF89000A6FC56 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3742FC721CEFF89000A6FC56 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,36 +156,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3742FC651CEFF89000A6FC56 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3742FC6E1CEFF89000A6FC56 /* dreamifyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3742FC701CEFF89000A6FC56 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3742FC791CEFF89000A6FC56 /* dreamifyUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3742FC6B1CEFF89000A6FC56 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3742FC541CEFF89000A6FC56 /* dreamify */;
-			targetProxy = 3742FC6A1CEFF89000A6FC56 /* PBXContainerItemProxy */;
-		};
-		3742FC761CEFF89000A6FC56 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3742FC541CEFF89000A6FC56 /* dreamify */;
-			targetProxy = 3742FC751CEFF89000A6FC56 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3742FC5C1CEFF89000A6FC56 /* Main.storyboard */ = {
@@ -401,6 +267,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = dreamify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamify;
@@ -412,56 +282,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = dreamify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3742FC811CEFF89000A6FC56 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = dreamifyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamifyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dreamify.app/dreamify";
-			};
-			name = Debug;
-		};
-		3742FC821CEFF89000A6FC56 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = dreamifyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamifyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dreamify.app/dreamify";
-			};
-			name = Release;
-		};
-		3742FC841CEFF89000A6FC56 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = dreamifyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamifyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = dreamify;
-			};
-			name = Debug;
-		};
-		3742FC851CEFF89000A6FC56 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = dreamifyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.dreamifyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = dreamify;
 			};
 			name = Release;
 		};
@@ -484,22 +312,7 @@
 				3742FC7F1CEFF89000A6FC56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3742FC801CEFF89000A6FC56 /* Build configuration list for PBXNativeTarget "dreamifyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3742FC811CEFF89000A6FC56 /* Debug */,
-				3742FC821CEFF89000A6FC56 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		3742FC831CEFF89000A6FC56 /* Build configuration list for PBXNativeTarget "dreamifyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3742FC841CEFF89000A6FC56 /* Debug */,
-				3742FC851CEFF89000A6FC56 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
